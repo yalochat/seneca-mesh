@@ -208,6 +208,10 @@ function mesh (options) {
             config.pin = 'null:true'
           }
 
+          if (options.host) {
+            config.host = options.host
+          }
+
           var instance_sneeze_opts = _.clone(sneeze_opts)
           instance_sneeze_opts.identifier =
             sneeze_opts.identifier + '~' +
