@@ -137,7 +137,7 @@ function mesh (options) {
 
     function init (msg, done) {
       find_bases(seneca, options, rif, function (found_bases) {
-        // console.log('FOUND',found_bases)
+          console.log('FOUND',found_bases,'<---------------')
 
         bases = found_bases
 
